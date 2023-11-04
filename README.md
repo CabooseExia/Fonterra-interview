@@ -1,5 +1,52 @@
 # Fonterra-interview
 create insights to protien martket in Thailand
 
-https://inmu2.mahidol.ac.th/thaifcd/home.php
+yea so for the first part, I want to see the distribution of proteins, carbs and fats in thailand
 
+second, i want to see the distribution of sources of protein in thailand - i might need to find more data online....
+
+third i gotta see what the culture is like there, do they even gym bruh
+
+data finding:
+https://inmu2.mahidol.ac.th/thaifcd/home.php -> no info on quantity
+https://www.globaldietarydatabase.org/ -> looks like we gna use this
+
+
+planning for grouping to see distributions:
+
+Consulted Mal, thanks Mal
+6 groups
+1. Protien
+2. Carbs
+3. Fats
+4. Vitamins (gna ignore)
+5. Minerals (gna ignore)
+6. Water (gna ignore)
+
+the units are all messed up, i want to convert it to Grams/day, but looking at the si-units for some of the groups, 
+vitamins and minerals i prob won't care about because its all milligrams and micrograms and they dont have protein in them anyways , 
+water can only care about total_milk later on as the rest do not have protein
+
+
+total proteins is alr nice
+
+bruh carbs:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7230657/#:~:text=3.2.-,Energy%20Intake,1566%20kcal%2Fd%20for%20women.
+men 2k/day (rounded)
+woman 1.5k/day (rounded)
+need to take % of that times 0.129598 to get grams/day
+carbs should be settled
+
+bruh fats???
+ok looks like majority of it should be saturated and unsaturated
+saturated is settled...
+unsaturated...
+found 4 
+v28	Monounsaturated fatty acids
+v29	Total omega-6 fat
+v30	Seafood omega-3 fat
+v31	Plant omega-3 fat
+
+['superregion2', 'iso3', 'age', 'female', 'urban', 'edu', 'year', 'varnum', 'v22_type', 'v22_type_desc', 'median', 'upperci_95', 'lowerci_95']
+
+daidhaoda
