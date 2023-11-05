@@ -1,9 +1,9 @@
 # Fonterra-interview
 create insights to protien martket in Thailand
 
-yea so for the first part, I want to see the distribution of proteins, carbs and fats in thailand
+yea so for the first part, I want to see the distribution of proteins, carbs and fats eaten by the people in thailand
 
-second, i want to see the distribution of sources of protein in thailand - i might need to find more data online....
+second, i want to see the distribution of sources of protein in thailand - i might need to find more data online.... no we good
 
 third i gotta see what the culture is like there, do they even gym bruh
 
@@ -12,7 +12,7 @@ https://inmu2.mahidol.ac.th/thaifcd/home.php -> no info on quantity
 https://www.globaldietarydatabase.org/ -> looks like we gna use this
 
 
-planning for grouping to see distributions:
+1. planning for grouping to see distributions:
 
 Consulted Mal, thanks Mal
 6 groups
@@ -55,5 +55,24 @@ my combined df will have these columns:
 ['superregion2', 'iso3', 'age', 'female', 'urban', 'edu', 'year', 'varnum', 'v22_type', 'v22_type_desc', 'p_median', 'p_upperci_95', 'p_lowerci_95', 'c_median', 'c_upperci_95', 'c_lowerci_95', 'f_median', 'f_upperci_95', 'f_lowerci_95']
 
 
-for age, index is:
-['0-11 mo.', '12-23 mo.', '2-5 years', '6-10 years', '11-14 years', '15-19 years', '20-24 years', '25-29 years', '30-34 years', '35-39 years', '40-44 years', '45-49 years', '50-54 years', '55-59 years', '60-64 years', '65-69 years', '70-74 years', '75-79 years', '80-84 years', '85-89 years', '90-94 years', '95+ years]
+
+2. now i want to check the distribution. I think i'll focus on 2018 as it is the most recent. 
+
+current groups of interest are:
+v05	Beans and legumes
+v06	Nuts and seeds
+v08	Whole grains
+v09	Total processed meats
+v10	Unprocessed red meats
+v11	Total seafoods
+v12	Eggs
+v13	Cheese
+v14	Yoghurt (including fermented milk)
+
+weird those with no total have mean.
+
+ok... i know i can prob automate this. but imma brute force this. 
+
+
+
+3. from searching online, there is some gymming culture? but only in like specific cities. Can't really say much
