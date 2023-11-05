@@ -36,6 +36,7 @@ men 2k/day (rounded)
 woman 1.5k/day (rounded)
 need to take % of that times 0.129598 to get grams/day
 carbs should be settled
+gender distribution in thailand is about 50.6% to 49.4%, i'll just round to 50/50
 
 bruh fats???
 ok looks like majority of it should be saturated and unsaturated
@@ -49,4 +50,10 @@ v31	Plant omega-3 fat
 
 ['superregion2', 'iso3', 'age', 'female', 'urban', 'edu', 'year', 'varnum', 'v22_type', 'v22_type_desc', 'median', 'upperci_95', 'lowerci_95']
 
-daidhaoda
+
+my combined df will have these columns:
+['superregion2', 'iso3', 'age', 'female', 'urban', 'edu', 'year', 'varnum', 'v22_type', 'v22_type_desc', 'p_median', 'p_upperci_95', 'p_lowerci_95', 'c_median', 'c_upperci_95', 'c_lowerci_95', 'f_median', 'f_upperci_95', 'f_lowerci_95']
+
+
+for age, index is:
+['0-11 mo.', '12-23 mo.', '2-5 years', '6-10 years', '11-14 years', '15-19 years', '20-24 years', '25-29 years', '30-34 years', '35-39 years', '40-44 years', '45-49 years', '50-54 years', '55-59 years', '60-64 years', '65-69 years', '70-74 years', '75-79 years', '80-84 years', '85-89 years', '90-94 years', '95+ years]
